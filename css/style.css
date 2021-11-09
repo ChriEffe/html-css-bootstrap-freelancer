@@ -22,3 +22,13 @@ html  {
     height: 150px;
     background-color: aqua;
 }
+
+.portfolio_content  {
+    height: 200px;
+    width: 380px;
+    background-color: blue;
+}
+
+.about_  {
+    height: 300px;
+}
