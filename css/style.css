@@ -12,7 +12,7 @@ html  {
     background-color: #1abc9c;
 }
 
-.header_>div  {
+.header_>.img_  {
     height: 300px;
     background-color: bisque;
 }
@@ -31,4 +31,29 @@ html  {
 
 .about_  {
     height: 300px;
+}
+
+.about_content_  {
+    height: 200px;
+    background-color: chocolate;
+}
+
+.contact_  {
+    height: 150px;
+    background-color: darkgreen;
+}
+
+.contact_bottom_  {
+    height: 80px;
+    background-color: darksalmon;
+    margin-top: 5em;
+}
+
+/* footer */
+footer  {
+    background-color: #2c3e50
+}
+.footer_  {
+    height: 200px;
+    background-color: gold;
 }
