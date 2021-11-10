@@ -11,11 +11,19 @@ html  {
     background-color: black;
 }
 
+h3  {
+    font-size: 1.3em;
+}
+
+.green  {
+    color: #1abc9c;
+}
+
 /* star icon */
 .line  {
     display: inline-block;
     height: 3px;
-    width: 5em;
+    width: 8em;
     background-color: white;
     vertical-align: middle;
     border-radius: 5px;
@@ -36,6 +44,12 @@ html  {
     font-weight: 700;
 }
 
+.fa-bars  {
+    border: 1px solid white;
+    padding: 0.3em 0.6em;
+    border-radius: 5px;
+}
+
 /* jumbotron */
 .jumbotron  {
     background-color: #1abc9c;
@@ -44,6 +58,11 @@ html  {
 .jumbotron .avatar  {
     display: inline-block;
     width:300px ;
+}
+
+.jumbo-title  {
+    font-size: 3em;
+    font-weight: bold;
 }
 
 /* portfolio */
@@ -59,6 +78,13 @@ html  {
 /* about */
 .about  {
     background-color: #1abc9c;
+}
+
+.btn  {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #1abc9c;
+    color: white;
 }
 
 /* contact */
@@ -80,4 +106,15 @@ div .col-form-label  {
 
 .footer .footer-bottom  {
   background-color: #2c3e50;
+}
+
+.my_padding  {
+    padding: 3em 12em;
+}
+
+.circle  {
+    border: 1px solid;
+    padding: 1em 1em;
+    border-radius: 50%;
+    width: 3em;
 }
