@@ -1,59 +1,63 @@
 html  {
     font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}    
+
+.my_white  {
+    color: white;
 }
 
 /* header */
-.navbar_  {
-    height: 4em;
+.header  {
     background-color: #2c3e50;
+    line-height: 3em;
 }
 
-.header_  {
+.header .container  {
+    background-color: #2c3e50;
+    font-weight: 700;
+}
+
+/* jumbotron */
+.jumbotron  {
     background-color: #1abc9c;
 }
 
-.header_>.img_  {
+.jumbotron .avatar  {
+    display: inline-block;
+    width:300px ;
+}
+
+i .fa-star::before,
+.i .fa-star::after  {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 5em;
+    background-color: white;
+}
+
+/* portfolio */
+.portfolio .img  {
+    background-color: blueviolet;
+    width: 100%;
     height: 300px;
-    background-color: bisque;
 }
 
-/* main */
-.portfolio_  {
-    height: 150px;
-    background-color: aqua;
-}
-
-.portfolio_content  {
-    height: 200px;
-    width: 380px;
-    background-color: blue;
-}
-
-.about_  {
-    height: 300px;
-}
-
-.about_content_  {
-    height: 200px;
-    background-color: chocolate;
-}
-
-.contact_  {
-    height: 150px;
-    background-color: darkgreen;
-}
-
-.contact_bottom_  {
-    height: 80px;
-    background-color: darksalmon;
-    margin-top: 5em;
+/* about */
+.about  {
+    background-color: #1abc9c;
 }
 
 /* footer */
-footer  {
-    background-color: #2c3e50
+.footer { 
+  color: rgb(var(--font-color-light));
 }
-.footer_  {
-    height: 200px;
-    background-color: gold;
+
+.footer .footer-top  {
+  background-color: #3a546d;
+}
+
+.footer .footer-bottom  {
+  background-color: #2c3e50;
 }
