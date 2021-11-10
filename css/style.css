@@ -19,6 +19,11 @@ h3  {
     color: #1abc9c;
 }
 
+a  {
+    text-decoration: none;
+    color: white;
+}
+
 /* star icon */
 .line  {
     display: inline-block;
@@ -48,6 +53,11 @@ h3  {
     border: 1px solid white;
     padding: 0.3em 0.6em;
     border-radius: 5px;
+}
+
+li a:hover  {
+    color: #1abc9c;
+    cursor: pointer;
 }
 
 /* jumbotron */
