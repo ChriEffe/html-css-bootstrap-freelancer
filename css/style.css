@@ -118,3 +118,9 @@ div .col-form-label  {
     border-radius: 50%;
     width: 3em;
 }
+
+@media screen and (max-width: 1200px)  {
+    .my_padding  {
+        padding: 0;
+    }
+}
